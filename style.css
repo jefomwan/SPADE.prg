@@ -1,0 +1,109 @@
+/* full html body background */
+html{
+    background-image:url(/images/uefa.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* editting ENTER YOUR LOGIN CREDENTIALS */
+#login_credentials {
+    font-style: normal; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 0, 191);
+    text-align: center;
+    margin-bottom: 20%;
+    font-size:200%;
+    
+}
+
+/* submit link */
+#login{
+    text-align: center;
+    color: rgb(2, 41, 40);
+    font-size: large;
+}
+
+/* sign up text*/
+#signup{
+    color: aqua;
+    text-align: center;
+}
+
+/* login box */
+#login_box{
+    background-image: linear-gradient( rgba(238, 241, 189, 0), rgba(32, 30, 80, 0.5));
+    border-radius: 9%;
+    margin-top: 5% ; margin-left: 30%; margin-right: 30%; padding-bottom: 7%; padding-top: 1%;
+    border-style: double;
+    border-color:  rgba(192, 132, 151, 1);
+}
+
+/* editting labels such as name, email, and password */
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: aliceblue;  margin-top: -27%;
+  padding-left: 13%;
+}
+
+/* editting the input field of the labels */
+input{
+    margin-left: 3%;
+    background-color: burlywood;
+    border-style: unset;
+    width: 60%;
+}
+
+/* side bar layout for home page */
+#sidebar{
+    margin-left: -1%;
+    border: double rgb(30, 9, 221); 
+    margin-right: 80%;
+    padding-bottom: 100%;
+    border-width:0.2cm;
+}
+
+/* welcome for home page */
+#welcome{
+    color: white; 
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+/* html body for home page */
+#homepage{
+    background-image: url(images/New\ UEFA\ Champions\ League\ branding\ 2018.jpg);
+    background-size: cover;
+}
+
+/* links */
+a{
+  color: white;
+  margin-left: 2%;
+}
+
+/* top bar for home page */
+#topbar{
+    border-style:solid;
+    border-top: unset;
+    border-color: rgb(30, 9, 221);
+    border-left: unset;
+    border-right: unset;
+    margin-top: -1%;
+    margin-left: -2%;
+    margin-right: -2%;
+    background-color: rgb(2, 2, 133);
+}
+
+/* sidebar elements/links */
+.sidebarlinks{
+     font-size: 170%;
+    border-style: solid;
+    border-top: unset; border-bottom: unset; border-right: unset;
+    padding-left: 2%;
+    margin-left: 3%;
+    border-color: purple;
+    border-width: 0.3cm;
+}
+#signuppage{
+    background-image: url(images/wall6.jpg);
+}
