@@ -60,6 +60,17 @@ input{
     margin-right: 80%;
     padding-bottom: 100%;
     border-width:0.2cm;
+    animation-name: chngcolors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes chngcolors {
+    0%{border-color: rgb(30, 9, 221);}
+    25%{ border-color: blue}
+    50%{border-color:blueviolet}
+    75%{border-color:aqua;}
+    100%{border-color:rgb(30, 9, 221);}
 }
 
 /* welcome for home page */
@@ -67,6 +78,13 @@ input{
     color: white; 
     margin-top: 1%;
     margin-left: 2%;
+    animation-name: letterspacing;
+    animation-duration: 3s;
+}
+@keyframes letterspacing {
+   from {letter-spacing: 5cm;}
+   to {letter-spacing: normal;}
+    
 }
 
 /* html body for home page */
@@ -95,6 +113,9 @@ a:active {color: aqua;}
     margin-left: -2%;
     margin-right: -2%;
     background-color: rgb(2, 2, 133);
+    animation-name: chngcolors;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
 }
 
 /* sidebar elements/links */
@@ -106,6 +127,12 @@ a:active {color: aqua;}
     margin-left: 3%;
     border-color: purple;
     border-width: 0.3cm;
+    animation-name: arrange;
+    animation-duration: 3s;
+}
+@keyframes arrange {
+    from{padding-left: 100px; padding-right: 0px;}
+    to{padding-left: initial; padding-right: initial;}
 }
 #signuppage{
     background-image: url(images/wall6.jpg);
