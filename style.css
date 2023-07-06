@@ -79,6 +79,7 @@ input{
 a{
   color: white;
   margin-left: 2%;
+  text-decoration: none;
 }
 
 /* top bar for home page */
