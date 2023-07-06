@@ -81,6 +81,8 @@ a{
   margin-left: 2%;
   text-decoration: none;
 }
+a:hover { color: blueviolet;} 
+a:active {color: aqua;}
 
 /* top bar for home page */
 #topbar{
